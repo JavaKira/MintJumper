@@ -1342,7 +1342,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 191725147
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d537863e8ac906a429ade2499eb424fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1543,6 +1543,7 @@ GameObject:
   - component: {fileID: 1595509615}
   - component: {fileID: 1595509614}
   - component: {fileID: 1595509613}
+  - component: {fileID: 1595509616}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1609,12 +1610,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595509612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -1.77, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1595509616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595509612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ee87eabdf447e9a6ddf2131cda7436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xBounds: {x: -3.3, y: 9.28}
+  speedMultiplier: 4
 --- !u!1 &1670889459
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added sprite material">
+    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added CampaignRoadScene and StartMissionScene">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignCameraInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignCameraInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CampaignRoadScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CampaignRoadScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     <setting file="mock://C:/Users/sefce/MintJumper/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/sefce/MintJumper/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sefce/MintJumper/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneOpenButtonBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CampaignCameraInput.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645821159227</updated>
       <workItem from="1645821169808" duration="12468000" />
-      <workItem from="1645885543044" duration="6483000" />
+      <workItem from="1645885543044" duration="8896000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1645885836999</created>
@@ -161,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645953547695</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added CampaignRoadScene and StartMissionScene">
+      <created>1645983467910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645983467910</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +203,8 @@
     <MESSAGE value="Added MainMenu scene" />
     <MESSAGE value="Added settings files" />
     <MESSAGE value="Added sprite material" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sprite material" />
+    <MESSAGE value="Added CampaignRoadScene and StartMissionScene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CampaignRoadScene and StartMissionScene" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1645953273753">
@@ -267,9 +279,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="725" y="263" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1645954962155" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1645953550367">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1645983926949">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1645953550367" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1645983926949" />
   </component>
 </project>
