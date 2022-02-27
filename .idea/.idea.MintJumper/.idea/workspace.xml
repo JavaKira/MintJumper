@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added TextMeshPro">
+    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added sprite material">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +37,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneOpenButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneOpenButtonBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PurseObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParalaxController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneOpenButtonBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -85,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645821159227</updated>
       <workItem from="1645821169808" duration="12468000" />
-      <workItem from="1645885543044" duration="3311000" />
+      <workItem from="1645885543044" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1645885836999</created>
@@ -136,7 +140,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645953154950</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added MainMenu scene">
+      <created>1645953394738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645953394738</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added settings files">
+      <created>1645953491133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645953491133</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added sprite material">
+      <created>1645953547695</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645953547695</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +189,10 @@
     <MESSAGE value="Added Bush" />
     <MESSAGE value="Added Parallax" />
     <MESSAGE value="Added TextMeshPro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TextMeshPro" />
+    <MESSAGE value="Added MainMenu scene" />
+    <MESSAGE value="Added settings files" />
+    <MESSAGE value="Added sprite material" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sprite material" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1645953273753">
@@ -235,13 +263,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1645885524613" />
-    <state x="725" y="263" key="RiderGenerateDialog" timestamp="1645874493418">
+    <state x="725" y="263" key="RiderGenerateDialog" timestamp="1645954962155">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="725" y="263" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1645874493418" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1645886615403">
+    <state x="725" y="263" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1645954962155" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1645953550367">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1645886615403" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1645953550367" />
   </component>
 </project>
