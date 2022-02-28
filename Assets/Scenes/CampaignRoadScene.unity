@@ -1629,7 +1629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xBounds: {x: -3.3, y: 9.28}
-  speedMultiplier: 4
+  speedMultiplier: 0.3
 --- !u!1 &1670889459
 GameObject:
   m_ObjectHideFlags: 0
