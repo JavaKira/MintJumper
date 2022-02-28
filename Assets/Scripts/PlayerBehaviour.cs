@@ -16,25 +16,30 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            moveDirection.x -= 1 * speedMultiplier;
+            moveDirection.x -= 1;
         }
         
         if (Input.GetKey(KeyCode.D))
         {
-            moveDirection.x += 1 * speedMultiplier;
+            moveDirection.x += 1;
         }
 
-        var scale = transform.localScale;
-        if (moveDirection.x > 0)
-            transform.localScale = new Vector3(1, scale.y, scale.z);
-        
-        if (moveDirection.x < 0)    
-            transform.localScale = new Vector3(-1, scale.y, scale.z);
-        
-        transform.Translate(moveDirection.x * Time.deltaTime, moveDirection.y * Time.deltaTime, 0);
+        Move(moveDirection);
     }
 
-    private void TryJump()
+    public void Move(Vector2 direction)
+    {
+        var scale = transform.localScale;
+        if (direction.x > 0)
+            transform.localScale = new Vector3(1, scale.y, scale.z);
+        
+        if (direction.x < 0)    
+            transform.localScale = new Vector3(-1, scale.y, scale.z);
+        
+        transform.Translate(direction.x * speedMultiplier * Time.deltaTime, direction.y * speedMultiplier * Time.deltaTime, 0);
+    }
+
+    public void TryJump()
     {
         if (!Grounded)
             return;
