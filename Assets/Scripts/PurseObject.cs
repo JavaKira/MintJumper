@@ -10,4 +10,9 @@ public class PurseObject : MonoBehaviour
         var distance = transform.position - pursedObject.transform.position;
         transform.Translate(-(Vector2) distance / softness);
     }
+
+    public void SetPurseObject(GameObject purseObject)
+    {
+        pursedObject = purseObject.gameObject;
+    }
 }
