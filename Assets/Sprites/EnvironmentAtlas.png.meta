@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2324096874731173749
-    second: EnvironmentAtlas_0
+    second: Bush
   - first:
       213: 599513463034688818
-    second: EnvironmentAtlas_1
+    second: HighGrass
   - first:
       213: 7491786998550961321
-    second: EnvironmentAtlas_2
+    second: Crate
   - first:
       213: 1793821402190321911
-    second: EnvironmentAtlas_3
+    second: DestroyedBush
   - first:
       213: 2081304879214113286
-    second: EnvironmentAtlas_4
+    second: Campfire
   - first:
       213: -973351788352137149
-    second: EnvironmentAtlas_5
+    second: BeetleWarningTable
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnvironmentAtlas_0
+      name: Bush
       rect:
         serializedVersion: 2
         x: 0
@@ -129,7 +129,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,7 +142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentAtlas_1
+      name: HighGrass
       rect:
         serializedVersion: 2
         x: 16
@@ -150,7 +150,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentAtlas_2
+      name: Crate
       rect:
         serializedVersion: 2
         x: 32
@@ -171,7 +171,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,7 +184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentAtlas_3
+      name: DestroyedBush
       rect:
         serializedVersion: 2
         x: 0
@@ -192,7 +192,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,7 +205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentAtlas_4
+      name: Campfire
       rect:
         serializedVersion: 2
         x: 16
@@ -213,7 +213,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentAtlas_5
+      name: BeetleWarningTable
       rect:
         serializedVersion: 2
         x: 32
@@ -234,7 +234,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
