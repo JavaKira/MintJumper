@@ -5604,6 +5604,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 1948622524}
+--- !u!1001 &2776080178632860809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440915409124325594, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616468026297069968, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
+      propertyPath: m_Name
+      value: BeetleWarningTable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbfced59347188a4cafd504b2b07c530, type: 3}
 --- !u!1001 &7991948761053976175
 PrefabInstance:
   m_ObjectHideFlags: 0

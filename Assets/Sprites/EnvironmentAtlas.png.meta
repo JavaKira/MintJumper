@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 2081304879214113286
     second: EnvironmentAtlas_4
+  - first:
+      213: -973351788352137149
+    second: EnvironmentAtlas_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,8 +166,8 @@ TextureImporter:
       name: EnvironmentAtlas_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -184,7 +187,7 @@ TextureImporter:
       name: EnvironmentAtlas_3
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 32
         width: 16
         height: 16
@@ -205,7 +208,7 @@ TextureImporter:
       name: EnvironmentAtlas_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 32
         width: 16
         height: 16
@@ -218,6 +221,27 @@ TextureImporter:
       bones: []
       spriteID: 60238daa2c742ec10800000000000000
       internalID: 2081304879214113286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34897cd94b5fd72f0800000000000000
+      internalID: -973351788352137149
       vertices: []
       indices: 
       edges: []
