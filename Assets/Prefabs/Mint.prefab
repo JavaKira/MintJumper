@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 2145595670945921108}
   - component: {fileID: 6791397074348756996}
   - component: {fileID: 666086632376875368}
+  - component: {fileID: -7956462025038717636}
   m_Layer: 0
   m_Name: Mint
   m_TagString: Untagged
@@ -231,6 +232,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6273675, y: 0.6952265}
   m_EdgeRadius: 0
+--- !u!114 &-7956462025038717636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457419785667089739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db3999e9341f46128ffc6bdc0deeda6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
 --- !u!1 &5343872650137515152
 GameObject:
   m_ObjectHideFlags: 0
