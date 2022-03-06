@@ -1812,8 +1812,9 @@ GameObject:
   - component: {fileID: 1466760054}
   - component: {fileID: 1466760057}
   - component: {fileID: 1466760056}
+  - component: {fileID: 1466760058}
   m_Layer: 5
-  m_Name: CampaignPoint
+  m_Name: BackstoryPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1933,6 +1934,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1466760058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466760052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: 'Backstory '
+  next: {fileID: 0}
+  noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
+  availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
+  completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
 --- !u!1 &1553500607
 GameObject:
   m_ObjectHideFlags: 0
