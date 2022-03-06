@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class CampaignPoint : MonoBehaviour
 {
     [SerializeField] private string title;
+    [SerializeField] private bool startResponsibilityChain;
     [SerializeField] private CampaignPoint next;
     [SerializeField] private Color noCompletedColor;
     [SerializeField] private Color availableColor;
@@ -11,40 +12,42 @@ public class CampaignPoint : MonoBehaviour
     
     public bool Available { get; private set; }
     public CampaignPointData Data { get; private set; }
-    
-    private CampaignPoint Previous { get; set; }
+
+    private CampaignPoint _previous;
 
     private void Awake()
     {
         Data = new CampaignPointData(title);
     }
-    
+
     private void Start()
     {
-        UpdateColor();
-                
+        if (startResponsibilityChain)
+        {
+            UpdateState();
+            UpdateColor();
+        }
+        
         if (next == null) return;
-        BuildGraph();
-        next.BuildGraph();
+        
+        next._previous = this;
+        next.UpdateState();
         next.UpdateColor();
     }
-    
-    private void BuildGraph()
+
+    private void UpdateState()
     {
-        if (next != null)
-            next.Previous = this;    
+        if (_previous != null && _previous.Data.Completed && !Data.Completed)
+        {
+            Available = true;
+        } else if (_previous == null && !Data.Completed)
+        {
+            Available = true;
+        }
     }
     
     private void UpdateColor()
     {
-        if (Previous != null && Previous.Data.Completed && !Data.Completed)
-        {
-            Available = true;
-        } else if (Previous == null && !Data.Completed)
-        {
-            Available = true;
-        }
-    
         if (Available)
         {
             GetComponent<Image>().color = availableColor;
