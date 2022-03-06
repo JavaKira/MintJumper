@@ -16,7 +16,7 @@ public class Mob : MonoBehaviour
         _health = maxHealth;
     }
 
-    private void ApplyDamage(float damage)
+    public void ApplyDamage(float damage)
     {
         _health -= damage;
         
