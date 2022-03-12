@@ -1,15 +1,16 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Game : MonoBehaviour
 {
     public static Game Instance;
 
+    public GameStats Stats;
     private bool _pause;
 
     private void Awake()
     {
         Instance = this;
+        Stats = new GameStats();
     }
     
     public void Pause()

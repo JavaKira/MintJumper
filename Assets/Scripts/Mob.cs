@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Mob : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class Mob : MonoBehaviour
     private void Awake()
     {
         Heal();
+    }
+
+    private void Start()
+    {
+        Game.Instance.Stats.AddMobLive(this);
     }
 
     private void Heal()
@@ -26,6 +32,8 @@ public class Mob : MonoBehaviour
 
     private void Dead()
     {
+        Game.Instance.Stats.RemoveMobLive(this);
+        Game.Instance.Stats.AddMobKilled(this);
         Destroy(gameObject);
     }
 }
