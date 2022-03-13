@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] private float speedMultiplier;
+    [SerializeField] private float jumpMultiplier;
+    [SerializeField] private AnimationCurve jumpCurve;
     
     private bool Grounded => IsGrounded();
 
@@ -43,8 +46,21 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (!Grounded)
             return;
+
+        StartCoroutine(JumpCoroutine());
+    }
+
+    private IEnumerator JumpCoroutine()
+    {
+        int frame = default;
+        while (frame < jumpCurve.length)
+        {
+            transform.Translate(0, jumpCurve[frame].value * jumpMultiplier * Time.fixedDeltaTime, 0);
+            yield return new WaitForFixedUpdate();
+            frame++;
+        }
         
-        transform.Translate(0, 1, 0);
+        yield return null;
     }
 
     private bool IsGrounded()

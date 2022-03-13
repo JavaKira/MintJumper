@@ -185,6 +185,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 5
+  jumpMultiplier: 15
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0011940002
+      value: 0.9507141
+      inSlope: 0.16953124
+      outSlope: 0.16953124
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.20824382
+      value: 0.9858155
+      inSlope: 0.102922015
+      outSlope: 0.102922015
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.60193586
+      value: 1.0001116
+      inSlope: -0.0026120115
+      outSlope: -0.0026120115
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.967851
+      value: 0.98491263
+      inSlope: -0.09802228
+      outSlope: -0.09802228
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.1953125
+      value: 0.94976807
+      inSlope: -0.15450776
+      outSlope: -0.15450776
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!50 &6791397074348756996
 Rigidbody2D:
   serializedVersion: 4
