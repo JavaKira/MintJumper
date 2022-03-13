@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions/StartMissionScene.unity
     guid: 3992ad758f23e5a4b83ee879b4ef224e
+  - enabled: 1
+    path: Assets/Scenes/Missions/FirstAttack.unity
+    guid: fdb2d7405dd1e1d45a05543c7d3f365e
   m_configObjects: {}
