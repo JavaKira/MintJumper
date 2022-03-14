@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class BeetleBehaviour1 : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private float speedMultiplier;
 
