@@ -3,6 +3,7 @@
 public class BeetleBehaviour : MonoBehaviour
 {
     [SerializeField] private float speedMultiplier;
+    [SerializeField] private float triggeredSpeedMultiplier;
     [SerializeField] private float idleDirectionChangeTime;
 
     private Mob _target;
@@ -44,8 +45,9 @@ public class BeetleBehaviour : MonoBehaviour
         
         if (direction.x < 0)    
             transform.localScale = new Vector3(-1, scale.y, scale.z);
-        
-        transform.Translate(direction.x * speedMultiplier * Time.deltaTime, direction.y * speedMultiplier * Time.deltaTime, 0);
+
+        var checkedSpeedMultiplier = _idle ? speedMultiplier : triggeredSpeedMultiplier;
+        transform.Translate(direction.x * checkedSpeedMultiplier * Time.deltaTime, direction.y * checkedSpeedMultiplier * Time.deltaTime, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

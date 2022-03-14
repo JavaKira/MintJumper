@@ -186,4 +186,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 1
+  triggeredSpeedMultiplier: 2
   idleDirectionChangeTime: 5
