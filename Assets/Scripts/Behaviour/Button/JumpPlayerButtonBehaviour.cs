@@ -3,17 +3,9 @@ using UnityEngine.EventSystems;
 
 namespace Behaviour.Button
 {
-    public class JumpPlayerButtonBehaviour : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class JumpPlayerButtonBehaviour : MonoBehaviour, IPointerDownHandler
     {
         [SerializeField] private PlayerBehaviour playerBehaviour;
-    
-        private bool _touched;
-
-        private void FixedUpdate()
-        {
-            if (_touched)
-                TryJump();
-        }
 
         private void TryJump()
         {
@@ -22,12 +14,7 @@ namespace Behaviour.Button
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            _touched = true;
-        }
-
-        public void OnPointerUp(PointerEventData eventData)
-        {
-            _touched = false;
+            TryJump();
         }
     }
 }
