@@ -7,6 +7,7 @@ namespace Weapon
         [SerializeField] private Animation attackAnimation;
         [SerializeField] private Bullet bulletType;
         [SerializeField] private float bulletSpeedMultiplier = 1f;
+        [SerializeField] private Vector2 bulletSpawnOffset;
     
         public override void Attack()
         {
@@ -19,7 +20,9 @@ namespace Weapon
         private void CreateBullet(Vector2 position, Vector2 direction)
         {
             var bullet = Instantiate(bulletType);
-            bullet.transform.position = new Vector3(position.x, position.y);
+            bullet.transform.position = transform.lossyScale.x > 0.5f
+                ? new Vector3(position.x + -bulletSpawnOffset.x, position.y + -bulletSpawnOffset.y)
+                : new Vector3(position.x + bulletSpawnOffset.x, position.y + bulletSpawnOffset.y);
             bullet.StartCoroutine(bullet.StartMove(direction, bulletSpeedMultiplier));
             bullet.SetOwner(Owner);
         }

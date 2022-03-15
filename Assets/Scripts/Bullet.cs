@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -9,14 +10,20 @@ public class Bullet : MonoBehaviour
 
     private float _time;
     private Mob _owner;
+    private Rigidbody2D _rigidbody;
+
+    private void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         var mob = other.gameObject.GetComponent<Mob>();
-        if (mob != null && !mob.Equals(_owner))
+        if (mob != null && !mob.name.Equals(_owner.name))
             mob.ApplyDamage(damage);
         
-        if (mob != null && mob.Equals(_owner))
+        if (mob != null && mob.name.Equals(_owner.name))
             return;
         
         Destroy();
@@ -36,10 +43,9 @@ public class Bullet : MonoBehaviour
         while (_time <= lifetime)
         {
             _time += Time.deltaTime;
-            transform.Translate(
+            _rigidbody.velocity += new Vector2(
                 direction.x * Time.deltaTime * speedMultiplier, 
-                direction.y * Time.deltaTime * speedMultiplier,
-                0
+                direction.y * Time.deltaTime * speedMultiplier
             );
             yield return null;
         }

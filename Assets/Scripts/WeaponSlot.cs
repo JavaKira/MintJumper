@@ -15,6 +15,7 @@ public class WeaponSlot : MonoBehaviour
     public Weapon.Weapon Build(Weapon.Weapon weapon)
     {
         Weapon = Instantiate(weapon, transform);
+        Weapon.SetOwner(GetComponentInParent<Mob>());
         return Weapon;
     }
 
