@@ -10,17 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Change Crate maxHealth to 10">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Campaign.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Campaign.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/CampaignIO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IO/CampaignIO.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added CampaignIO">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mission.cs" afterDir="false" />
     </list>
     <list id="dc18708d-500f-464c-beab-9254c4b9e053" name="ignore" comment="Added Mission">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" afterDir="false" />
@@ -102,11 +93,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Campaign.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampaignData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionStartPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Builder/MissionTypeBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mission.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IO/CampaignIO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" />
       </list>
     </option>
   </component>
@@ -160,14 +151,7 @@
       <workItem from="1645885543044" duration="16465000" />
       <workItem from="1646148665374" duration="33336000" />
       <workItem from="1647025892808" duration="33988000" />
-      <workItem from="1647374186239" duration="6023000" />
-    </task>
-    <task id="LOCAL-00018" summary="Added PausePanel, Panel, PausePanelInput and layout pause panel at SampleScene and StartMissionScene">
-      <created>1646150073116</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1646150073116</updated>
+      <workItem from="1647374186239" duration="6801000" />
     </task>
     <task id="LOCAL-00019" summary="Added OnTriggerEnter2DCheck">
       <created>1646248148819</created>
@@ -505,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647464323176</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added CampaignIO">
+      <created>1647531053469</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1647531053469</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added Background to MainMenu scene" />
     <MESSAGE value="Added Crate Mob component" />
     <MESSAGE value="Added GameStats" />
     <MESSAGE value="Added MissionRequirements" />
@@ -552,7 +542,8 @@
     <MESSAGE value="Layout Input prefab" />
     <MESSAGE value="Added MissionStartPanel" />
     <MESSAGE value="Change Crate maxHealth to 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Crate maxHealth to 10" />
+    <MESSAGE value="Added CampaignIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CampaignIO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1647293890395">
@@ -639,10 +630,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647294254719" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1647464327161">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1647531056298">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1647464327161" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1647531056298" />
     <state x="623" y="235" key="search.everywhere.popup" timestamp="1647358738072">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

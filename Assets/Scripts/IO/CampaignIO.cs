@@ -21,7 +21,6 @@ namespace IO
             writer.Write(data.GetData().Count);
             foreach (var pointData in data.GetData())
             {
-                Debug.Log(pointData.CampaignPointTitle);
                 writer.Write(pointData.CampaignPointTitle);
                 writer.Write(pointData.Completed);
             }
