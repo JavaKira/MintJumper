@@ -17,7 +17,9 @@ public class CampaignPoint : MonoBehaviour
 
     private void Awake()
     {
-        Data = new CampaignPointData(title);
+        Campaign.GetData().GetData().ForEach(pointData => Debug.Log(pointData.CampaignPointTitle));
+        var data = Campaign.GetData().GetData(title);
+        Data = data ?? new CampaignPointData(title);
     }
 
     private void Start()

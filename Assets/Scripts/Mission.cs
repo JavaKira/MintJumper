@@ -13,6 +13,8 @@ public class Mission : MonoBehaviour
     public void End()
     {
         Game.Instance.Pause();
+        MissionStartPanel.LastPointData.Completed = true;
+        Campaign.GetData().PutData(MissionStartPanel.LastPointData);
         FindObjectOfType<MissionEndPanel>(true).gameObject.SetActive(true);
     }
 }
