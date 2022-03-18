@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Mob : MonoBehaviour
 {
@@ -7,6 +8,14 @@ public class Mob : MonoBehaviour
 
     private float _health;
     
+    public UnityEvent<float> healthChanged = new UnityEvent<float>();
+
+    public float MaxHealth
+    {
+        get => maxHealth;
+        set => maxHealth = value;
+    }
+
     private void Awake()
     {
         Heal();
@@ -20,6 +29,7 @@ public class Mob : MonoBehaviour
     private void Heal()
     {
         _health = maxHealth;
+        healthChanged.Invoke(_health);
     }
 
     public void ApplyDamage(float damage)
@@ -28,6 +38,7 @@ public class Mob : MonoBehaviour
         
         if (_health <= 0)
             Dead();
+        healthChanged.Invoke(_health);
     }
 
     private void Dead()
