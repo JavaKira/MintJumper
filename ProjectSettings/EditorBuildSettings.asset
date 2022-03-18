@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions/FirstAttack.unity
     guid: fdb2d7405dd1e1d45a05543c7d3f365e
+  - enabled: 1
+    path: Assets/Scenes/Missions/WeaponsStorageScene.unity
+    guid: f6c0b4c84e6a54d43aa6a8662d09e6d5
   m_configObjects: {}
