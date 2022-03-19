@@ -5,6 +5,12 @@ public class MissionTypeBuilder : MonoBehaviour
     [SerializeField] private string sceneName;
     [SerializeField] private MissionRequirementBuilder missionEndMainRequirement;
 
+    public string SceneName
+    {
+        get => sceneName;
+        set => sceneName = value;
+    }
+
     public void SetToPreset()
     {
         Mission.Preset = Build();
@@ -13,7 +19,7 @@ public class MissionTypeBuilder : MonoBehaviour
     public MissionType Build()
     {
         return new MissionType(
-            sceneName,
+            SceneName,
             missionEndMainRequirement.Build()
         );
     }

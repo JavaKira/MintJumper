@@ -70,6 +70,8 @@ public class CampaignPoint : MonoBehaviour
         public readonly string CampaignPointTitle;
         public bool Completed { get; set; }
 
+        public int Stars;
+
         public CampaignPointData(string campaignPointTitle)
         {
             CampaignPointTitle = campaignPointTitle;
