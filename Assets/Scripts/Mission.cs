@@ -15,6 +15,6 @@ public class Mission : MonoBehaviour
         Game.Instance.Pause();
         MissionStartPanel.LastPointData.Completed = true;
         Campaign.GetData().PutData(MissionStartPanel.LastPointData);
-        FindObjectOfType<MissionEndPanel>(true).gameObject.SetActive(true);
+        FindObjectOfType<MissionEndPanel>(true).Open(MissionStartPanel.LastPointData);
     }
 }
