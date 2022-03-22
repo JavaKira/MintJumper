@@ -9,7 +9,15 @@ namespace Behaviour
         [SerializeField] private float jumpMultiplier;
         [SerializeField] private AnimationCurve jumpCurve;
     
+        public bool isOnLadder
+        {
+            get => _isOnLadder;
+            set => _isOnLadder = value;
+        }
+        
         private bool Grounded => IsGrounded();
+
+        private bool _isOnLadder;
 
         private void Update()
         {
@@ -28,7 +36,7 @@ namespace Behaviour
             {
                 moveDirection.x += 1;
             }
-
+    
             Move(moveDirection);
         }
 

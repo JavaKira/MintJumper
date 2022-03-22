@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -973351788352137149
     second: BeetleWarningTable
+  - first:
+      213: -2393967815477162755
+    second: Ladder
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -242,6 +245,27 @@ TextureImporter:
       bones: []
       spriteID: 34897cd94b5fd72f0800000000000000
       internalID: -973351788352137149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladder
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc04c2a4fae6ced0800000000000000
+      internalID: -2393967815477162755
       vertices: []
       indices: 
       edges: []

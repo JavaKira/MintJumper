@@ -10,8 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Added CampaignIO">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" afterDir="false" />
+    <list default="true" id="fbfaec28-4dcd-4941-bf19-ca41d138e64a" name="Default Changelist" comment="Layout and Added MissionEndPanel prefab">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ladder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ladder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Missions/WeaponsStorageScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Missions/WeaponsStorageScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Behaviour/Button/JumpPlayerButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Behaviour/Button/JumpPlayerButtonBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Behaviour/PlayerBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Behaviour/PlayerBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/EnvironmentAtlas.png.meta" afterDir="false" />
     </list>
     <list id="dc18708d-500f-464c-beab-9254c4b9e053" name="ignore" comment="Added Mission">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MintJumper/.idea/contentModel.xml" afterDir="false" />
@@ -19,12 +26,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <list id="12ebcb69-a068-4a89-a0a8-d0c234fea65e" name="mission" comment="" />
-    <list id="ca00b2e5-fcde-4ffc-aea0-3f136c3f839d" name="NewLevel" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Missions/WeaponsStorageScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Missions/WeaponsStorageScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CampaignRoadScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CampaignRoadScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list id="ca00b2e5-fcde-4ffc-aea0-3f136c3f839d" name="NewLevel" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,10 +38,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/fb/c4577182/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/2f/8ed02b65/File.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sefce/MintJumper/Assets/Prefabs/Crate.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/87/9d9e51d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/ce/1aa9d4f8/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/22/6d2161d1/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/87/9d9e51d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/cb/955d1ba6/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/998F2491-CDE6-4F39-9B36-14F82C288B4F/0e/f2295626/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMPro_ExtensionMethods.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/PlayerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/19/70be14cc/BinaryWriter.cs" root0="SKIP_HIGHLIGHTING" />
@@ -47,12 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mission/RequrementBuilder/MobDeadMissionRequirementBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mission/RequrementBuilder/MissionRequirementBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mission/Requrement/MobDeadMissionRequirement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mission/Requrement/MissionRequirement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MissionEndPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MobDeadMissionRequirementBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionRequirementBuilder.cs" />
@@ -85,19 +82,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Check/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/ShootingWeapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mob.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponSlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/Button/JumpPlayerButtonBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/PlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Campaign.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampaignData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MissionStartPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Builder/MissionTypeBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MissionType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mission.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IO/CampaignIO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBarHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MobHealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MobHealthBarHeart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mob.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CampaignPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Builder/MissionTypeBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Star.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MissionStartPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mission.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MissionEndPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ladder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/PlayerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/Button/JumpPlayerButtonBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -151,98 +154,8 @@
       <workItem from="1645885543044" duration="16465000" />
       <workItem from="1646148665374" duration="33336000" />
       <workItem from="1647025892808" duration="33988000" />
-      <workItem from="1647374186239" duration="6801000" />
-    </task>
-    <task id="LOCAL-00019" summary="Added OnTriggerEnter2DCheck">
-      <created>1646248148819</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1646248148819</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Added PositionCheck">
-      <created>1646248165716</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1646248165716</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Added GameObjectDestroyer">
-      <created>1646327342397</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1646327342397</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Added PurseObject setPurseObject">
-      <created>1646406368601</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1646406368601</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Added Timer">
-      <created>1646406435443</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1646406435443</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Added GameObjectPositionSetter">
-      <created>1646406478449</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1646406478449</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Added BeetleBehaviour">
-      <created>1646406511443</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1646406511443</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Added BushFragmentSpawner and BushFragment">
-      <created>1646406557329</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1646406557329</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Fixed Mint children's spriteRenderer sorting layer">
-      <created>1646493604564</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1646493604564</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added BackgroundBeetleBehaviour and beetles to MainMenu scene background">
-      <created>1646495228734</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1646495228734</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added Beetle sprite">
-      <created>1646495281743</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1646495281743</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Added CampaignRoadScene background and Background3 sprite">
-      <created>1646496222147</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1646496222147</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Added campfire">
-      <created>1646498324320</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1646498324320</updated>
+      <workItem from="1647374186239" duration="28125000" />
+      <workItem from="1647960186851" duration="7559000" />
     </task>
     <task id="LOCAL-00032" summary="Added beetleWarningTable">
       <created>1646499043710</created>
@@ -496,7 +409,98 @@
       <option name="project" value="LOCAL" />
       <updated>1647531053469</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Removed CampaignIO and CampaignPoint debug log">
+      <created>1647533517682</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1647533517682</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Added WeaponsStorage mission">
+      <created>1647622489013</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1647622489013</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Fixed backgrounds sorting layer">
+      <created>1647622725916</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1647622725916</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Separate Beetle legs">
+      <created>1647626662193</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1647626662193</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Added BeetleWalk animation">
+      <created>1647627976808</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1647627976808</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Added MobHealthBar">
+      <created>1647632718247</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632718247</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Updated BeetleWalk animation">
+      <created>1647632747261</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632747261</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Fixed Bullet sortingLayer">
+      <created>1647633438854</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1647633438863</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added MintWalk animation">
+      <created>1647635911454</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1647635911454</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Added CampaignRoadScene MissionStartPanel and Added Star to CampaignPoint">
+      <created>1647715841864</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1647715841864</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Update MintWalk animation">
+      <created>1647715866095</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1647715866095</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Fixed Beetle legs spriteRenderer sorting layer">
+      <created>1647892688862</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1647892688862</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Layout and Added MissionEndPanel prefab">
+      <created>1647893518531</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1647893518531</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,19 +522,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added Crate Mob component" />
-    <MESSAGE value="Added GameStats" />
-    <MESSAGE value="Added MissionRequirements" />
-    <MESSAGE value="Added FirstAttack mission" />
-    <MESSAGE value="Added animation for rifle" />
-    <MESSAGE value="Added sprite for bullet" />
-    <MESSAGE value="Added BulletDestroyEffect" />
-    <MESSAGE value="Remove Background1 And Added Trees" />
-    <MESSAGE value="Added Background1 and fixed backgrounds at scenes" />
-    <MESSAGE value="Added Mint PlayerBehaviour jump animation curve" />
-    <MESSAGE value="Added" />
-    <MESSAGE value="Added BeetleBehaviour" />
-    <MESSAGE value="Added BeetleBehaviour triggeredSpeedMultiplier" />
     <MESSAGE value="Rename BeetleBehaviour1 to Mover" />
     <MESSAGE value="Fixed Parallax properties at scenes" />
     <MESSAGE value="Change Physics2DSettings QueriesHitTriggers to false" />
@@ -543,7 +534,20 @@
     <MESSAGE value="Added MissionStartPanel" />
     <MESSAGE value="Change Crate maxHealth to 10" />
     <MESSAGE value="Added CampaignIO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CampaignIO" />
+    <MESSAGE value="Removed CampaignIO and CampaignPoint debug log" />
+    <MESSAGE value="Added WeaponsStorage mission" />
+    <MESSAGE value="Fixed backgrounds sorting layer" />
+    <MESSAGE value="Separate Beetle legs" />
+    <MESSAGE value="Added BeetleWalk animation" />
+    <MESSAGE value="Added MobHealthBar" />
+    <MESSAGE value="Updated BeetleWalk animation" />
+    <MESSAGE value="Fixed Bullet sortingLayer" />
+    <MESSAGE value="Added MintWalk animation" />
+    <MESSAGE value="Added CampaignRoadScene MissionStartPanel and Added Star to CampaignPoint" />
+    <MESSAGE value="Update MintWalk animation" />
+    <MESSAGE value="Fixed Beetle legs spriteRenderer sorting layer" />
+    <MESSAGE value="Layout and Added MissionEndPanel prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout and Added MissionEndPanel prefab" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1647293890395">
@@ -614,14 +618,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1645885524613" />
-    <state x="725" y="365" width="579" height="543" key="RiderGenerateDialog" timestamp="1647529415885">
+    <state x="725" y="365" width="579" height="543" key="RiderGenerateDialog" timestamp="1647961827222">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="725" y="365" width="579" height="543" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647529415885" />
-    <state x="787" y="249" key="RollbackChangesDialog" timestamp="1647358187849">
+    <state x="725" y="365" width="579" height="543" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647961827222" />
+    <state x="787" y="249" key="RollbackChangesDialog" timestamp="1647621876875">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="787" y="249" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647358187849" />
+    <state x="787" y="249" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647621876875" />
     <state x="790" y="409" key="VCS.EditChangelistDialog" timestamp="1647289616040">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -630,10 +634,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647294254719" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1647531056298">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1647893520026">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1647531056298" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1647893520026" />
     <state x="623" y="235" key="search.everywhere.popup" timestamp="1647358738072">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
