@@ -6,7 +6,7 @@ public class Mission : MonoBehaviour
 
     private void Awake()
     {
-        Preset.MissionEndMainRequirement.DoneEvent.AddListener(End);
+        Preset.MissionEndMainRequirement.GetDoneEvent().AddListener(End);
         Preset.MissionEndMainRequirement.AddDoneCheck();
     }
 

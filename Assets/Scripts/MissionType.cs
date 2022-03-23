@@ -1,11 +1,15 @@
-﻿public class MissionType
-{
-    private string _sceneName;
-    public MissionRequirement.MissionRequirement MissionEndMainRequirement { get; }
+﻿using MissionRequirement;
+using UnityEngine;
 
-    public MissionType(string sceneName, MissionRequirement.MissionRequirement missionEndMainRequirement)
-    {
-        _sceneName = sceneName;
-        MissionEndMainRequirement = missionEndMainRequirement;
-    }
+[CreateAssetMenu]
+public class MissionType : ScriptableObject
+{
+    [SerializeField] 
+    private string sceneName;
+    //dirty hack, maybe ScriptableObject who given not implement IMissionRequirement
+    [SerializeField]
+    private ScriptableObject missionEndMainRequirement;
+
+    public string SceneName => sceneName;
+    public IMissionRequirement MissionEndMainRequirement => (IMissionRequirement) missionEndMainRequirement;
 }

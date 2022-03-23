@@ -1,21 +1,34 @@
-﻿namespace MissionRequirement
+﻿using UnityEngine;
+using UnityEngine.Events;
+
+namespace MissionRequirement
 {
-    public class MobsDeadMissionRequirement : MissionRequirement
+    [CreateAssetMenu (menuName = "MissionRequirement/MobDeadMissionRequirement")]
+    public class MobsDeadMissionRequirement : ScriptableObject, IMissionRequirement
     {
-        private readonly Mob _mobType;
+        [SerializeField]
+        private string title;
+        [SerializeField]
+        private Mob mobType;
+        private readonly UnityEvent _doneEvent = new UnityEvent();
 
-        public MobsDeadMissionRequirement(string title, Mob mobType) : base(title)
-        {
-            _mobType = mobType;
-        }
-
-        public override void AddDoneCheck()
+        public void AddDoneCheck()
         {
             Game.Instance.Stats.Changed.AddListener( () =>
             {
-                if (Game.Instance.Stats.GetMobsLive(_mobType.name) == 0)
-                    DoneEvent.Invoke();
+                if (Game.Instance.Stats.GetMobsLive(mobType.name) == 0)
+                    _doneEvent.Invoke();
             });
+        }
+
+        public string GetTitle()
+        {
+            return title;
+        }
+
+        public UnityEvent GetDoneEvent()
+        {
+            return _doneEvent;
         }
     }
 }

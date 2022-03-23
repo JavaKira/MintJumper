@@ -2623,6 +2623,7 @@ MonoBehaviour:
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
+  missionType: {fileID: 0}
 --- !u!1 &1539574723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2636,8 +2637,6 @@ GameObject:
   - component: {fileID: 1539574729}
   - component: {fileID: 1539574728}
   - component: {fileID: 1539574724}
-  - component: {fileID: 1539574726}
-  - component: {fileID: 1539574725}
   m_Layer: 5
   m_Name: WeaponStoragePoint
   m_TagString: Untagged
@@ -2663,34 +2662,7 @@ MonoBehaviour:
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
---- !u!114 &1539574725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539574723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49472df63b0497ca787893ca4c51afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title: destroy all crates
-  mobType: {fileID: 4850503151013234787, guid: 26bcb08bf3ed2ac4a9b8c78e2d22ffab, type: 3}
---- !u!114 &1539574726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539574723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0fe833a8544fe294e0bae904d0b6b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: WeaponsStorageScene
-  missionEndMainRequirement: {fileID: 1539574725}
+  missionType: {fileID: 11400000, guid: f16dd494dd008d44cbb896d82399d07c, type: 2}
 --- !u!114 &1539574728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,7 +2707,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1539574726}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MissionTypeBuilder, Assembly-CSharp
         m_MethodName: SetToPreset
         m_Mode: 1
@@ -3240,8 +3212,6 @@ GameObject:
   - component: {fileID: 1711742242}
   - component: {fileID: 1711742241}
   - component: {fileID: 1711742239}
-  - component: {fileID: 1711742245}
-  - component: {fileID: 1711742244}
   m_Layer: 5
   m_Name: FirstAttackPoint
   m_TagString: Untagged
@@ -3286,6 +3256,7 @@ MonoBehaviour:
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
+  missionType: {fileID: 11400000, guid: 1ff005f2a041ce24397462d258813635, type: 2}
 --- !u!114 &1711742241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3330,7 +3301,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1711742245}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MissionTypeBuilder, Assembly-CSharp
         m_MethodName: SetToPreset
         m_Mode: 1
@@ -3392,34 +3363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711742237}
   m_CullTransparentMesh: 1
---- !u!114 &1711742244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711742237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49472df63b0497ca787893ca4c51afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title: Kill all beetles
-  mobType: {fileID: 7136640509754481318, guid: 98e23ac4985555248a889956daf57490, type: 3}
---- !u!114 &1711742245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711742237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0fe833a8544fe294e0bae904d0b6b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: FirstAttack
-  missionEndMainRequirement: {fileID: 1711742244}
 --- !u!1 &1760532429
 GameObject:
   m_ObjectHideFlags: 0

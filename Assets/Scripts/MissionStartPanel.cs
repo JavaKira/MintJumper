@@ -26,7 +26,8 @@ public class MissionStartPanel : MonoBehaviour
         
         if (_lastButtonAction != null)
             startButton.onClick.RemoveListener(_lastButtonAction);
-        _lastButtonAction = () => SceneManager.LoadScene(point.GetComponent<MissionTypeBuilder>().SceneName);
+        Mission.Preset = point.MissionType;
+        _lastButtonAction = () => SceneManager.LoadScene(point.MissionType.SceneName);
         startButton.onClick.AddListener(_lastButtonAction);
     }
 }

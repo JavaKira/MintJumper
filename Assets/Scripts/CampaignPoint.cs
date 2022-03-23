@@ -9,6 +9,9 @@ public class CampaignPoint : MonoBehaviour
     [SerializeField] private Color noCompletedColor;
     [SerializeField] private Color availableColor;
     [SerializeField] private Color completedColor;
+    [SerializeField] private MissionType missionType;
+
+    public MissionType MissionType => missionType;
     
     public bool Available { get; private set; }
     public CampaignPointData Data { get; private set; }

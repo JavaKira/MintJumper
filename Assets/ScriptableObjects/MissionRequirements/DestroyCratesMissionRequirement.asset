@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92489d21ca254d39a429e18eff1f0c52, type: 3}
+  m_Name: DestroyCratesMissionRequirement
+  m_EditorClassIdentifier: 
+  title: destroy all crates
+  mobType: {fileID: 4850503151013234787, guid: 26bcb08bf3ed2ac4a9b8c78e2d22ffab, type: 3}
