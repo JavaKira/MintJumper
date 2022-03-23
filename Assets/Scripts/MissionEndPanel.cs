@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MissionEndPanel : MonoBehaviour
@@ -13,8 +12,9 @@ public class MissionEndPanel : MonoBehaviour
 
     public void Open(CampaignPoint.CampaignPointData data)
     {
-        gameObject.SetActive(true);
-        
+        GameObject o;
+        (o = gameObject).SetActive(true);
+        FindObjectOfType<UIHider>()?.HideAll(o);
         for (var i = 0; i < _stars.Length; i++)
         {
             _stars[i].UpdateState(i < data.Stars);
