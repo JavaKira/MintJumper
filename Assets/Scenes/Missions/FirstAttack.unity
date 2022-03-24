@@ -10097,7 +10097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
@@ -10154,7 +10154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
@@ -10454,7 +10454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
@@ -11114,7 +11114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
@@ -11171,7 +11171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
@@ -11445,7 +11445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993556366064951732, guid: 98e23ac4985555248a889956daf57490, type: 3}
       propertyPath: m_Name
-      value: Beetle
+      value: MeleeBeetle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98e23ac4985555248a889956daf57490, type: 3}
