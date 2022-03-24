@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class GameStats
@@ -47,11 +48,11 @@ public class GameStats
 
     public int GetMobKilled(string name)
     {
-        return _mobsKilled[name];
+        return !_mobsKilled.ContainsKey(name) ? 0 : _mobsKilled[name];
     }
     
     public int GetMobsLive(string name)
     {
-        return _mobsLive[name];
+        return !_mobsLive.ContainsKey(name) ? 0 : _mobsLive[name];
     }
 }
