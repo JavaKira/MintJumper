@@ -8,7 +8,8 @@ namespace Behaviour
         [SerializeField] private float triggeredSpeedMultiplier;
         [SerializeField] private float idleDirectionChangeTime;
 
-        private Mob _target;
+        protected Mob Target;
+        
         private bool _idle = true;
         private float _directionTime;
         /*left or right*/
@@ -35,7 +36,7 @@ namespace Behaviour
             }
             else
             {
-                Move(new Vector2(-(transform.position - _target.transform.position).normalized.x, 0));    
+                Move(new Vector2(-(transform.position - Target.transform.position).normalized.x, 0));    
             }
         }
 
@@ -56,7 +57,7 @@ namespace Behaviour
         {
             if (other.GetComponent<PlayerBehaviour>() == null) return;
         
-            _target = other.GetComponent<Mob>();
+            Target = other.GetComponent<Mob>();
             _idle = false;
         }
 
@@ -64,7 +65,7 @@ namespace Behaviour
         {
             if (other.GetComponent<PlayerBehaviour>() == null) return;
         
-            _target = null;
+            Target = null;
             _idle = true;
         }
     }

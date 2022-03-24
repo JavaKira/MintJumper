@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 164288879717367474}
   - component: {fileID: 993556366064951731}
   - component: {fileID: 7136640509754481318}
-  - component: {fileID: 435779582048650205}
   - component: {fileID: 1224345603147431899}
+  - component: {fileID: 1270437085192616235}
   m_Layer: 0
-  m_Name: Beetle
+  m_Name: MeleeBeetle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 2631103260818236658, guid: 6e3b879640b4f19408700a911cf3d290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -180,21 +180,6 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &435779582048650205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993556366064951732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833a0e79e81648d383f7d6aacfad5465, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedMultiplier: 1
-  triggeredSpeedMultiplier: 2
-  idleDirectionChangeTime: 5
 --- !u!95 &1224345603147431899
 Animator:
   serializedVersion: 3
@@ -214,6 +199,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1270437085192616235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993556366064951732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddaddf2c2b548eea1dc6c8109666f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMultiplier: 1
+  triggeredSpeedMultiplier: 2
+  idleDirectionChangeTime: 5
+  damage: 10
+  reload: 1
 --- !u!1 &5360742011064888685
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +286,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7801186258100458736, guid: 6e3b879640b4f19408700a911cf3d290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -393,7 +395,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -3665364186405681620, guid: 6e3b879640b4f19408700a911cf3d290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -502,7 +504,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7801186258100458736, guid: 6e3b879640b4f19408700a911cf3d290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
