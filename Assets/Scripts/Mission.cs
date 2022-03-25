@@ -34,5 +34,8 @@ public class Mission : MonoBehaviour
         MissionStartPanel.LastPointData.Stars = Math.Max(MissionStartPanel.LastPointData.Stars, _stars);
         Campaign.GetData().PutData(MissionStartPanel.LastPointData);
         FindObjectOfType<MissionEndPanel>(true).Open(MissionStartPanel.LastPointData);
+        
+        if (Preset.IssuedWeapon != null)
+            Campaign.GetEquipmentData().UnlockWeapon(Preset.IssuedWeapon);
     }
 }

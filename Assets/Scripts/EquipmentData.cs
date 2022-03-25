@@ -33,9 +33,8 @@ public class EquipmentData
     
     public void UnlockWeapon(string name)
     {
-        if (!_unlockedWeaponNames.Contains(name))
-            _unlockedWeaponNames.Add(name);
-        
+        if (_unlockedWeaponNames.Contains(name)) return;
+        _unlockedWeaponNames.Add(name);
         _changed.Invoke();
     }
 
