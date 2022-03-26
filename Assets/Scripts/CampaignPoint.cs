@@ -41,7 +41,9 @@ public class CampaignPoint : MonoBehaviour
 
     private void UpdateState()
     {
-        if (_previous != null && _previous.Data.Completed && !Data.Completed)
+        if (Data.Completed)
+            Available = true;
+        else if (_previous != null && _previous.Data.Completed && !Data.Completed)
         {
             Available = true;
         } else if (_previous == null && !Data.Completed)
@@ -52,6 +54,12 @@ public class CampaignPoint : MonoBehaviour
     
     private void UpdateColor()
     {
+        if (Available && Data.Completed)
+        {
+            GetComponent<Image>().color = completedColor;
+            return; 
+        }
+        
         if (Available)
         {
             GetComponent<Image>().color = availableColor;

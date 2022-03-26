@@ -16,6 +16,7 @@ public class MissionStartPanel : MonoBehaviour
 
     public void Open(CampaignPoint point)
     {
+        if (!point.Available) return;
         gameObject.SetActive(true);
         LastPointData = point.Data;
         title.text = point.Data.CampaignPointTitle;
