@@ -8,6 +8,7 @@ namespace Behaviour
     {
         [SerializeField] private float speedMultiplier;
         [SerializeField] private float jumpMultiplier;
+        [SerializeField] private float meleeDamage;
         [SerializeField] private AnimationCurve jumpCurve;
 
         private Animator _animator;
@@ -50,6 +51,21 @@ namespace Behaviour
             transform.Translate(direction.x * speedMultiplier * Time.deltaTime,
                 direction.y * speedMultiplier * Time.deltaTime, 0);
             _lastDirection = direction;
+        }
+
+        //"oh no" code ):<
+        public void MeleeAttack()
+        {
+            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack")) return;
+            var transform1 = transform;
+            var directionLeft = transform1.localScale.x < 0;
+            var hit = Physics2D.Raycast(
+                (Vector2) transform1.position + (directionLeft ? Vector2.left : Vector2.right) * 0.6f,
+                directionLeft ? Vector2.left : Vector2.right);
+            var mob = hit.rigidbody.GetComponent<Mob>();
+            if (!(hit.distance < 0.01f) || mob == null) return;
+            _animator.Play("Attack");
+            mob.ApplyDamage(meleeDamage);
         }
 
         public void TryJump()

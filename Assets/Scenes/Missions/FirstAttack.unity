@@ -9913,7 +9913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb07bd3d45e94c7d9b6e0449a957e72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _weapon: {fileID: 4134942593466435392, guid: 9ecf7855d789a4646890860e16077382, type: 3}
+  Empty: 0
 --- !u!1 &968986319
 GameObject:
   m_ObjectHideFlags: 0
@@ -11464,6 +11464,10 @@ PrefabInstance:
       propertyPath: slot
       value: 
       objectReference: {fileID: 908316317}
+    - target: {fileID: 1616041588866910008, guid: 1771f1000fc667a47822f7400f9ccccf, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 661398370}
     - target: {fileID: 1616041589159156172, guid: 1771f1000fc667a47822f7400f9ccccf, type: 3}
       propertyPath: playerBehaviour
       value: 

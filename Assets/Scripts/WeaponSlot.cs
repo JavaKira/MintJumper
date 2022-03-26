@@ -1,8 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WeaponSlot : MonoBehaviour
 {
+    public bool Empty;
     public Weapon.Weapon Weapon { get; private set; }
 
     private void Awake()
@@ -12,6 +12,7 @@ public class WeaponSlot : MonoBehaviour
 
     private void Build(Weapon.Weapon weapon)
     {
+        Empty = weapon == null;
         Weapon = Instantiate(weapon, transform);
         Weapon.SetOwner(GetComponentInParent<Mob>());
     }
@@ -19,5 +20,6 @@ public class WeaponSlot : MonoBehaviour
     public void RemoveWeapon()
     {
         Destroy(Weapon);
+        Empty = true;
     }
 }

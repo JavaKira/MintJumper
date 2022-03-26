@@ -5,13 +5,17 @@ namespace Behaviour.Button
 {
     public class ShootButtonBehaviour : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
+        [SerializeField] private PlayerBehaviour player;
         [SerializeField] private WeaponSlot slot;
-    
+
         private bool _touched;
 
         private void FixedUpdate()
         {
-            if (_touched)
+            if (!_touched) return;
+            if (slot.Empty) 
+                player.MeleeAttack();
+            else
                 slot.Weapon.Attack();
         }
 

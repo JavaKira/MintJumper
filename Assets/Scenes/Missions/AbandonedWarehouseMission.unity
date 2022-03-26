@@ -204,6 +204,10 @@ PrefabInstance:
       propertyPath: slot
       value: 
       objectReference: {fileID: 1593874712}
+    - target: {fileID: 1616041588866910008, guid: 1771f1000fc667a47822f7400f9ccccf, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2102741729}
     - target: {fileID: 1616041589159156172, guid: 1771f1000fc667a47822f7400f9ccccf, type: 3}
       propertyPath: playerBehaviour
       value: 
@@ -4834,6 +4838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb07bd3d45e94c7d9b6e0449a957e72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Empty: 0
 --- !u!4 &1593874713
 Transform:
   m_ObjectHideFlags: 0
