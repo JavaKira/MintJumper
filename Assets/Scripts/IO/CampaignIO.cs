@@ -32,6 +32,9 @@ namespace IO
         {
             var name = "campaignSave";
             name += Extension;
+            if (!File.Exists(Application.persistentDataPath + "/" + Directory + name))
+                Save(new CampaignData());
+            
             using var fileStream = new FileStream(Application.persistentDataPath + "/" + Directory + name, FileMode.Open);
             using var reader = new BinaryReader(fileStream);
             var data = new CampaignData();

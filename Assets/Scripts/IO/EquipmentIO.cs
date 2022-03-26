@@ -31,6 +31,9 @@ namespace IO
         {
             var name = "equipment";
             name += Extension;
+            if (!File.Exists(Application.persistentDataPath + "/" + Directory + name))
+                Save(new EquipmentData());
+            
             using var fileStream = new FileStream(Application.persistentDataPath + "/" + Directory + name, FileMode.Open);
             using var reader = new BinaryReader(fileStream);
             var data = new EquipmentData();
