@@ -1,18 +1,21 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Game : MonoBehaviour
 {
+    public static readonly UnityEvent OnAwake = new UnityEvent();
     public static Game Instance;
+    private bool _pause;
 
     public GameStats Stats;
-    private bool _pause;
 
     private void Awake()
     {
         Instance = this;
         Stats = new GameStats();
+        OnAwake.Invoke();
     }
-    
+
     public void Pause()
     {
         _pause = true;
