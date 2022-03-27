@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions/AbandonedWarehouseMission.unity
     guid: 620e8e69deb7b404595143c904d064f3
+  - enabled: 1
+    path: Assets/Scenes/Missions/JoinBeetlesCityScene.unity
+    guid: 431e4825b59da0245805dbd4f4120bc8
   m_configObjects: {}
