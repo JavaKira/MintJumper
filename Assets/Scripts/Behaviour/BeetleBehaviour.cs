@@ -15,32 +15,38 @@ namespace Behaviour
         /*left or right*/
         private bool _directionLeft; 
     
-        private void FixedUpdate()
+        public void FixedUpdate()
         {
             if (_idle)
-            {
-                var hit = Physics2D.Raycast(
-                    (Vector2) transform.position + (_directionLeft ? Vector2.left : Vector2.right) * 0.6f,
-                    _directionLeft ? Vector2.left : Vector2.right);
-                if (hit.distance == 0)
-                    _directionLeft = !_directionLeft;
-            
-                _directionTime += Time.fixedDeltaTime;
-                if (_directionTime > idleDirectionChangeTime)
-                {
-                    _directionLeft = !_directionLeft;
-                    _directionTime = 0;
-                }
-            
-                Move(_directionLeft ? Vector2.left : Vector2.right);
-            }
+                FixedUpdateIdle();
             else
-            {
-                Move(new Vector2(-(transform.position - Target.transform.position).normalized.x, 0));    
-            }
+                FixedUpdateNoIdle();
         }
 
-        private void Move(Vector2 direction)
+        protected virtual void FixedUpdateIdle()
+        {
+            var hit = Physics2D.Raycast(
+                (Vector2) transform.position + (_directionLeft ? Vector2.left : Vector2.right) * 0.6f,
+                _directionLeft ? Vector2.left : Vector2.right);
+            if (hit.distance == 0)
+                _directionLeft = !_directionLeft;
+            
+            _directionTime += Time.fixedDeltaTime;
+            if (_directionTime > idleDirectionChangeTime)
+            {
+                _directionLeft = !_directionLeft;
+                _directionTime = 0;
+            }
+            
+            Move(_directionLeft ? Vector2.left : Vector2.right);
+        }
+
+        protected virtual void FixedUpdateNoIdle()
+        {
+            
+        }
+
+        protected void Move(Vector2 direction)
         {
             var scale = transform.localScale;
             if (direction.x > 0)

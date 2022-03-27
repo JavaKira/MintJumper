@@ -10,6 +10,11 @@ namespace Behaviour
 
         private bool _reloading;
 
+        protected override void FixedUpdateNoIdle()
+        {
+            Move(new Vector2(-(transform.position - Target.transform.position).normalized.x, 0));   
+        }
+        
         private void StartReloading()
         {
             StartCoroutine(Reloading());
