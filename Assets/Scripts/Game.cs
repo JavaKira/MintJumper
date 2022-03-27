@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class Game : MonoBehaviour
 {
-    public static readonly UnityEvent OnAwake = new UnityEvent();
+    public static readonly UnityEvent OnStart = new UnityEvent();
     public static Game Instance;
     private bool _pause;
 
@@ -13,7 +14,11 @@ public class Game : MonoBehaviour
     {
         Instance = this;
         Stats = new GameStats();
-        OnAwake.Invoke();
+    }
+
+    private void Start()
+    {
+        OnStart.Invoke();    
     }
 
     public void Pause()

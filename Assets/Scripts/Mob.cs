@@ -19,7 +19,7 @@ public class Mob : MonoBehaviour
     private void Awake()
     {
         Heal();
-        Game.OnAwake.AddListener(() => Game.Instance.Stats.AddMobLive(this));
+        Game.OnStart.AddListener(() => Game.Instance.Stats.AddMobLive(this));
     }
 
     private void Heal()
