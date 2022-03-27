@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6412194739549748233}
   - component: {fileID: 6412194739549748232}
   - component: {fileID: 4850503151013234787}
+  - component: {fileID: -3031094192709448859}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7491786998550961321, guid: 1f8fcc3694584484ab04b63a9f9f0950, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -145,3 +146,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  destroyEffect: {fileID: 8846062906815060815, guid: 705bcd109739c4c49a8d15f7e221f0ae, type: 3}
+  healthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!95 &-3031094192709448859
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6412194739549748278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

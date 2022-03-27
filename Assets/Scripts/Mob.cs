@@ -1,10 +1,10 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class Mob : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
+    [SerializeField] private MobDestroyEffect destroyEffect;
 
     private float _health;
     
@@ -41,6 +41,8 @@ public class Mob : MonoBehaviour
     {
         Game.Instance.Stats.RemoveMobLive(this);
         Game.Instance.Stats.AddMobKilled(this);
+        if (destroyEffect != null)
+            destroyEffect.Instantiate(this).StartEffect();
         Destroy(gameObject);
     }
 }
