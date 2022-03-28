@@ -177,6 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  destroyEffect: {fileID: 0}
+  enemy: 1
   healthChanged:
     m_PersistentCalls:
       m_Calls: []

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6524856380349828703}
   - component: {fileID: 8247850322745292170}
   - component: {fileID: -7715581956477487926}
+  - component: {fileID: 3470448023233244740}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1649753505
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 519dfd2a7d4eb6a44a991b78cd47ee3c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -147,3 +148,22 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!253 &3470448023233244740
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524856380349828696}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 0
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0

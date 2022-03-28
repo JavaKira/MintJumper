@@ -5,6 +5,7 @@ public class Mob : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
     [SerializeField] private MobDestroyEffect destroyEffect;
+    [SerializeField] private bool enemy;
 
     private float _health;
     
@@ -15,6 +16,8 @@ public class Mob : MonoBehaviour
         get => maxHealth;
         set => maxHealth = value;
     }
+
+    public bool Enemy => enemy;
 
     private void Awake()
     {
