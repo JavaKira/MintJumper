@@ -8,11 +8,6 @@ public class Mission : MonoBehaviour
 
     private void Start()
     {
-        Game.Instance.Stats.Changed.AddListener(() =>
-        {
-            Debug.Log(Game.Instance.Stats.GetMobsLive("Beetle"));
-        });
-        
         Preset.MissionEndMainRequirement.GetDoneEvent().AddListener(End);
         Preset.MissionEndMainRequirement.AddDoneCheck();
         Preset.MissionRequirement2.GetDoneEvent().AddListener(AddStar);

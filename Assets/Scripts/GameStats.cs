@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
+
 using UnityEngine.Events;
 
 public class GameStats
@@ -54,5 +54,15 @@ public class GameStats
     public int GetMobsLive(string name)
     {
         return !_mobsLive.ContainsKey(name) ? 0 : _mobsLive[name];
+    }
+    
+    public Dictionary<string, int> GetMobKilled()
+    {
+        return new Dictionary<string, int>(_mobsKilled);
+    }
+    
+    public Dictionary<string, int> GetMobsLive()
+    {
+        return new Dictionary<string, int>(_mobsLive);
     }
 }

@@ -15,5 +15,5 @@ MonoBehaviour:
   sceneName: WeaponsStorageScene
   issuedWeapon: {fileID: 4134942593466435392, guid: 9ecf7855d789a4646890860e16077382, type: 3}
   missionEndMainRequirement: {fileID: 11400000, guid: db2352a8d9ec42a47bdfbf20e7d09854, type: 2}
-  missionRequirement2: {fileID: 11400000, guid: 20d4157ce334edd429a688c5f02c0b91, type: 2}
-  missionRequirement3: {fileID: 11400000, guid: 20d4157ce334edd429a688c5f02c0b91, type: 2}
+  missionRequirement2: {fileID: 11400000, guid: 9c74596780badac40a9c9f12f993d001, type: 2}
+  missionRequirement3: {fileID: 11400000, guid: 9c74596780badac40a9c9f12f993d001, type: 2}

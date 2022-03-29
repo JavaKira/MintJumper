@@ -8,6 +8,7 @@ public class Mob : MonoBehaviour
     [SerializeField] private bool enemy;
 
     private float _health;
+    private bool _killed;
 
     public UnityEvent<float> healthChanged = new UnityEvent<float>();
 
@@ -42,11 +43,16 @@ public class Mob : MonoBehaviour
 
     private void Dead()
     {
-        Game.Instance.Stats.RemoveMobLive(this);
-        Game.Instance.Stats.AddMobKilled(this);
+        //i use _killed, reason it unity Destroy destroys gameObject not immediate, its make possible to Dead() called many times
+        if (!_killed)
+        {
+            Game.Instance.Stats.RemoveMobLive(this);
+            Game.Instance.Stats.AddMobKilled(this);
+        }
         if (destroyEffect != null)
             destroyEffect.Instantiate(this).StartEffect();
         Destroy(gameObject);
+        _killed = true;
     }
     
     public static Mob GetByName(string name)
