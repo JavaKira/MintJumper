@@ -26,7 +26,7 @@ public class Bullet : MonoBehaviour
                 mob.ApplyDamage(damage);
         }
         else
-            if (mob != null && !mob.name.Equals(_owner.name) && mob.Enemy)
+            if (mob != null && !mob.name.Equals(_owner.name))
                 mob.ApplyDamage(damage);
 
         if (mob != null && mob.name.Equals(_owner.name))
