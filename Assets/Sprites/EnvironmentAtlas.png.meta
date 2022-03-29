@@ -29,6 +29,12 @@ TextureImporter:
   - first:
       213: -5241625472891391907
     second: DoorClosed
+  - first:
+      213: 8586227020322860333
+    second: Bench
+  - first:
+      213: 6646476540290078101
+    second: BushVase
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -314,6 +320,48 @@ TextureImporter:
       bones: []
       spriteID: d507baa57610247b0800000000000000
       internalID: -5241625472891391907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bench
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d6433bbf7682770800000000000000
+      internalID: 8586227020322860333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BushVase
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59515f7e2370d3c50800000000000000
+      internalID: 6646476540290078101
       vertices: []
       indices: 
       edges: []
