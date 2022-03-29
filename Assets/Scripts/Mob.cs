@@ -8,7 +8,7 @@ public class Mob : MonoBehaviour
     [SerializeField] private bool enemy;
 
     private float _health;
-    
+
     public UnityEvent<float> healthChanged = new UnityEvent<float>();
 
     public float MaxHealth
@@ -47,5 +47,10 @@ public class Mob : MonoBehaviour
         if (destroyEffect != null)
             destroyEffect.Instantiate(this).StartEffect();
         Destroy(gameObject);
+    }
+    
+    public static Mob GetByName(string name)
+    {
+        return Resources.Load<Mob>(name);
     }
 }
