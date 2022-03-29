@@ -23,6 +23,12 @@ TextureImporter:
   - first:
       213: -2393967815477162755
     second: Ladder
+  - first:
+      213: 2763154121074338524
+    second: DoorOpened
+  - first:
+      213: -5241625472891391907
+    second: DoorClosed
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -258,7 +264,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,6 +272,48 @@ TextureImporter:
       bones: []
       spriteID: dfc04c2a4fae6ced0800000000000000
       internalID: -2393967815477162755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorOpened
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaea468802b85620800000000000000
+      internalID: 2763154121074338524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorClosed
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507baa57610247b0800000000000000
+      internalID: -5241625472891391907
       vertices: []
       indices: 
       edges: []
