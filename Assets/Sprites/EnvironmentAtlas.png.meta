@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 6646476540290078101
     second: BushVase
+  - first:
+      213: 6283130481715603440
+    second: BeetleStatue
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -362,6 +365,27 @@ TextureImporter:
       bones: []
       spriteID: 59515f7e2370d3c50800000000000000
       internalID: 6646476540290078101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeetleStatue
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7661832e9223750800000000000000
+      internalID: 6283130481715603440
       vertices: []
       indices: 
       edges: []
