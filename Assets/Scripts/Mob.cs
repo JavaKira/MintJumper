@@ -7,7 +7,6 @@ public class Mob : MonoBehaviour
     [SerializeField] private MobDestroyEffect destroyEffect;
     [SerializeField] private bool enemy;
 
-    private float _health;
     private bool _killed;
 
     public UnityEvent<float> healthChanged = new UnityEvent<float>();
@@ -20,6 +19,8 @@ public class Mob : MonoBehaviour
 
     public bool Enemy => enemy;
 
+    public float Health { get; private set; }
+
     private void Awake()
     {
         Heal();
@@ -28,17 +29,17 @@ public class Mob : MonoBehaviour
 
     private void Heal()
     {
-        _health = maxHealth;
-        healthChanged.Invoke(_health);
+        Health = maxHealth;
+        healthChanged.Invoke(Health);
     }
 
     public void ApplyDamage(float damage)
     {
-        _health -= damage;
+        Health = Health - damage;
         
-        if (_health <= 0)
+        if (Health <= 0)
             Dead();
-        healthChanged.Invoke(_health);
+        healthChanged.Invoke(Health);
     }
 
     private void Dead()
