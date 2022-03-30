@@ -5,6 +5,8 @@ namespace MissionRequirement
     public interface IMissionRequirement
     {
         void AddDoneCheck();
+        
+        void RemoveDoneCheck();
 
         string GetTitle();
 

@@ -8,12 +8,33 @@ public class Mission : MonoBehaviour
 
     private void Start()
     {
-        Preset.MissionEndMainRequirement.GetDoneEvent().AddListener(End);
+        Preset.MissionEndMainRequirement.GetDoneEvent().AddListener(OnEndMainRequirementDone);
         Preset.MissionEndMainRequirement.AddDoneCheck();
-        Preset.MissionRequirement2.GetDoneEvent().AddListener(AddStar);
+        Preset.MissionRequirement2.GetDoneEvent().AddListener(OnRequirement2Done);
         Preset.MissionRequirement2.AddDoneCheck();
-        Preset.MissionRequirement3.GetDoneEvent().AddListener(AddStar);
+        Preset.MissionRequirement3.GetDoneEvent().AddListener(OnRequirement3Done);
         Preset.MissionRequirement3.AddDoneCheck();
+    }
+
+    private void OnEndMainRequirementDone()
+    {
+        End();
+        Preset.MissionEndMainRequirement.RemoveDoneCheck();
+        Preset.MissionEndMainRequirement.GetDoneEvent().RemoveListener(OnEndMainRequirementDone);
+    }
+    
+    private void OnRequirement2Done()
+    {
+        AddStar();
+        Preset.MissionRequirement2.RemoveDoneCheck();
+        Preset.MissionRequirement2.GetDoneEvent().RemoveListener(OnRequirement2Done);
+    }
+    
+    private void OnRequirement3Done()
+    {
+        AddStar();
+        Preset.MissionRequirement3.RemoveDoneCheck();
+        Preset.MissionRequirement3.GetDoneEvent().RemoveListener(OnRequirement3Done);
     }
 
     private void AddStar()

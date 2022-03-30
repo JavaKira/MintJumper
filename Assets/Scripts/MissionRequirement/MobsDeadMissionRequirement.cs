@@ -14,11 +14,18 @@ namespace MissionRequirement
 
         public void AddDoneCheck()
         {
-            Game.Instance.Stats.Changed.AddListener(() =>
-            {
-                if (Game.Instance.Stats.GetMobsLive(mobType.name) == 0)
-                    _doneEvent.Invoke();
-            });
+            Game.Instance.Stats.Changed.AddListener(DoneCheck);
+        }
+
+        public void RemoveDoneCheck()
+        {
+            Game.Instance.Stats.Changed.RemoveListener(DoneCheck);
+        }
+
+        private void DoneCheck()
+        {
+            if (Game.Instance.Stats.GetMobsLive(mobType.name) == 0)
+                _doneEvent.Invoke();
         }
 
         public string GetTitle()

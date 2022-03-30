@@ -13,15 +13,22 @@ namespace MissionRequirement
 
         public void AddDoneCheck()
         {
-            Game.Instance.Stats.Changed.AddListener(() =>
+            Game.Instance.Stats.Changed.AddListener(DoneCheck);
+        }
+
+        public void RemoveDoneCheck()
+        {
+            Game.Instance.Stats.Changed.RemoveListener(DoneCheck);
+        }
+
+        private void DoneCheck()
+        {
+            if (!Game.Instance.Stats.GetMobsLive().Any(pair =>
             {
-                if (!Game.Instance.Stats.GetMobsLive().Any(pair =>
-                {
-                    var mob = Mob.GetByName(pair.Key);
-                    return mob != null && mob.Enemy && pair.Value != 0;
-                }))
-                    _doneEvent.Invoke();
-            });
+                var mob = Mob.GetByName(pair.Key);
+                return mob != null && mob.Enemy && pair.Value != 0;
+            }))
+                _doneEvent.Invoke();
         }
 
         public string GetTitle()
