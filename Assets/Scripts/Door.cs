@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Door : MonoBehaviour
@@ -8,6 +10,7 @@ public class Door : MonoBehaviour
 
     private BoxCollider2D _collider2D;
     private SpriteRenderer _spriteRenderer;
+    private readonly List<Mob> _joined = new List<Mob>();
 
     private void Awake()
     {
@@ -29,13 +32,22 @@ public class Door : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Mob>() != null)
-            Open();
+        if (other.isTrigger) return;
+        var mob = other.GetComponent<Mob>();
+        if (mob != null)
+            _joined.Add(mob);
+        
+        Open();
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.GetComponent<Mob>() != null)
+        if (other.isTrigger) return;
+        var mob = other.GetComponent<Mob>();
+        if (mob != null)
+            _joined.Remove(mob);
+        
+        if (!_joined.Any())
             Close();
     }
 }
