@@ -35,4 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions/BeetleCity2Scene.unity
     guid: 54030abd7c2f3904eac66a132932fe72
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/Missions/BeetleCity3Scene.unity
+    guid: f09dea5c46657424288321babb4476b8
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 254e2b1d091422f4da316e72dc474369, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 9c5e2ec1c9a70394593636b911b8b6e8, type: 2}

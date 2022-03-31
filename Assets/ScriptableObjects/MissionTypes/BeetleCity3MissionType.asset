@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6c999abab34620a42a8d1229c0d4e1, type: 3}
   m_Name: BeetleCity3MissionType
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: BeetleCity3Scene
   issuedWeapon: {fileID: 0}
-  missionEndMainRequirement: {fileID: 0}
-  missionRequirement2: {fileID: 0}
-  missionRequirement3: {fileID: 0}
+  missionEndMainRequirement: {fileID: 11400000, guid: 20d4157ce334edd429a688c5f02c0b91, type: 2}
+  missionRequirement2: {fileID: 11400000, guid: db2352a8d9ec42a47bdfbf20e7d09854, type: 2}
+  missionRequirement3: {fileID: 11400000, guid: db2352a8d9ec42a47bdfbf20e7d09854, type: 2}
