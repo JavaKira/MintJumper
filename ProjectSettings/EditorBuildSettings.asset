@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions/BeetleCity1Scene.unity
     guid: 4ac3448bd10a3e94cb5b8259ba49a0be
+  - enabled: 1
+    path: Assets/Scenes/Missions/BeetleCity2Scene.unity
+    guid: 54030abd7c2f3904eac66a132932fe72
   m_configObjects: {}

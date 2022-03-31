@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Beetles city 1
+  title: Beetles city 5
   startResponsibilityChain: 0
   next: {fileID: 1146111009}
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
@@ -2758,7 +2758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Beetles city 1
+  title: Beetles city 3
   startResponsibilityChain: 0
   next: {fileID: 838610422}
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
@@ -3768,13 +3768,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Beetles city 1
+  title: Beetles city 2
   startResponsibilityChain: 0
   next: {fileID: 838610422}
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
-  missionType: {fileID: 11400000, guid: 9194eb8db94f9b040a7e4421c76d32f9, type: 2}
+  missionType: {fileID: 11400000, guid: 4c9bf2a63fe37fe4e9e63cce54aa55a2, type: 2}
 --- !u!114 &1097506394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3932,7 +3932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Beetles city 1
+  title: Beetles city center
   startResponsibilityChain: 0
   next: {fileID: 0}
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
@@ -9004,7 +9004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456ed6ba9ba549fd9c967d6fe29a062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Beetles city 1
+  title: Beetles city 4
   startResponsibilityChain: 0
   next: {fileID: 1932992413}
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
