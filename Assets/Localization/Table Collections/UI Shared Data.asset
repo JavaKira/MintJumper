@@ -35,6 +35,26 @@ MonoBehaviour:
     m_Key: Chose
     m_Metadata:
       m_Items: []
+  - m_Id: 6881852657664
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7080717193216
+    m_Key: GameOver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7514039128064
+    m_Key: MissionCompleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7883649585152
+    m_Key: BeetlesCity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8354187579392
+    m_Key: ComingSoon
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

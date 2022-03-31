@@ -38,5 +38,25 @@ MonoBehaviour:
     m_Localized: Chose
     m_Metadata:
       m_Items: []
+  - m_Id: 6881852657664
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7080717193216
+    m_Localized: Game over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7514039128064
+    m_Localized: Mission completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7883649585152
+    m_Localized: Beetles city
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8354187579392
+    m_Localized: Coming soon...
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
