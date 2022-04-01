@@ -2678,7 +2678,7 @@ MonoBehaviour:
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
-  missionType: {fileID: 11400000, guid: 9194eb8db94f9b040a7e4421c76d32f9, type: 2}
+  missionType: {fileID: 11400000, guid: 257a831a23e220e47a86d761c3e29c9c, type: 2}
 --- !u!114 &838610423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3972,7 +3972,7 @@ MonoBehaviour:
   noCompletedColor: {r: 0.67058825, g: 0.15294118, b: 0.20392157, a: 0}
   availableColor: {r: 0.8980392, g: 0.98039216, b: 0.5372549, a: 1}
   completedColor: {r: 0.22352943, g: 0.7411765, b: 0.427451, a: 1}
-  missionType: {fileID: 11400000, guid: 9194eb8db94f9b040a7e4421c76d32f9, type: 2}
+  missionType: {fileID: 11400000, guid: ac814f292c8d0714a918dc048cca33ad, type: 2}
 --- !u!114 &1146111010
 MonoBehaviour:
   m_ObjectHideFlags: 0
