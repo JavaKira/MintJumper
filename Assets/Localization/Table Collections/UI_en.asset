@@ -58,5 +58,13 @@ MonoBehaviour:
     m_Localized: Coming soon...
     m_Metadata:
       m_Items: []
+  - m_Id: 144075732946944
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146839234023424
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

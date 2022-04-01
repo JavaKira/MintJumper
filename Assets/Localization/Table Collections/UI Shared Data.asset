@@ -55,6 +55,14 @@ MonoBehaviour:
     m_Key: ComingSoon
     m_Metadata:
       m_Items: []
+  - m_Id: 144075732946944
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146839234023424
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
