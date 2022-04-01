@@ -7,12 +7,14 @@ namespace Behaviour
     {
         [SerializeField] private float damage;
         [SerializeField] private float reload;
+        [SerializeField] private bool flipMove;
 
         private bool _reloading;
 
         protected override void FixedUpdateNoIdle()
         {
-            Move(new Vector2(-(transform.position - Target.transform.position).normalized.x, 0));   
+            var differenceX = (transform.position - Target.transform.position).normalized.x;
+            Move(new Vector2(flipMove ? differenceX : -differenceX, 0));   
         }
         
         private void StartReloading()
