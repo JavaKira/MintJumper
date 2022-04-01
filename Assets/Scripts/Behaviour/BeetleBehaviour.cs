@@ -7,6 +7,7 @@ namespace Behaviour
         [SerializeField] private float speedMultiplier;
         [SerializeField] private float triggeredSpeedMultiplier;
         [SerializeField] private float idleDirectionChangeTime;
+        [SerializeField] private float rayOffset;
 
         protected Mob Target;
         
@@ -26,7 +27,7 @@ namespace Behaviour
         protected virtual void FixedUpdateIdle()
         {
             var hit = Physics2D.Raycast(
-                (Vector2) transform.position + (_directionLeft ? Vector2.left : Vector2.right) * 0.6f,
+                (Vector2) transform.position + (_directionLeft ? Vector2.left : Vector2.right) * rayOffset,
                 _directionLeft ? Vector2.left : Vector2.right);
             if (hit.distance == 0)
                 _directionLeft = !_directionLeft;

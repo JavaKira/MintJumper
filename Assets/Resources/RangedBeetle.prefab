@@ -544,6 +544,7 @@ MonoBehaviour:
   speedMultiplier: 1
   triggeredSpeedMultiplier: 2
   idleDirectionChangeTime: 5
+  rayOffset: 0.6
   weapon: {fileID: 1940407972685408094}
 --- !u!1001 &2562533502290288670
 PrefabInstance:
