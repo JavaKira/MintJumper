@@ -22,4 +22,15 @@ public class UIHider : MonoBehaviour
             children.SetActive(false);
         }
     }
+    
+    public void SeekAll(GameObject except)
+    {
+        foreach (var children in _childrens)
+        {
+            if (children.Equals(except))
+                continue;
+            
+            children.SetActive(true);
+        }
+    }
 }
