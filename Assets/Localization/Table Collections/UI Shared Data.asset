@@ -63,6 +63,14 @@ MonoBehaviour:
     m_Key: Language
     m_Metadata:
       m_Items: []
+  - m_Id: 285143375941632
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285354626256896
+    m_Key: Pause
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

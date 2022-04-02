@@ -66,5 +66,13 @@ MonoBehaviour:
     m_Localized: Language
     m_Metadata:
       m_Items: []
+  - m_Id: 285143375941632
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285354626256896
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
