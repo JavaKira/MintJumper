@@ -51,5 +51,10 @@ namespace IO
             
             return data;
         }
+
+        public static void Clear()
+        {
+            Save(new CampaignData());
+        }
     }
 }

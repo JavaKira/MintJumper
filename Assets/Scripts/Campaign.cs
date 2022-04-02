@@ -29,4 +29,10 @@ public static class Campaign
         data.AddChangedListener(() => EquipmentIO.Save(data));
         return data;
     }
+
+    public static void ReloadData()
+    {
+        _data = CampaignIO.Load();
+        _equipmentData = EquipmentIO.Load();
+    }
 }

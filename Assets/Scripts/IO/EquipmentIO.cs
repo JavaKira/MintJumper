@@ -47,5 +47,10 @@ namespace IO
             data.ChoseWeapon(Weapon.Weapon.GetByName(reader.ReadString()));
             return data;
         }
+        
+        public static void Clear()
+        {
+            Save(new EquipmentData());
+        }
     }
 }
