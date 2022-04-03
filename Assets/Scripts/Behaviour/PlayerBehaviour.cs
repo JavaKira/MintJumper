@@ -63,8 +63,8 @@ namespace Behaviour
                 (Vector2) transform1.position + (directionLeft ? Vector2.left : Vector2.right) * 0.6f,
                 directionLeft ? Vector2.left : Vector2.right);
             var mob = hit.rigidbody.GetComponent<Mob>();
-            if (!(hit.distance < 0.01f) || mob == null) return;
             _animator.Play("Attack");
+            if (!(hit.distance < 0.01f) || mob == null) return;
             mob.ApplyDamage(meleeDamage);
         }
 
