@@ -97,6 +97,7 @@ namespace Behaviour
         {
             var position = transform.position;
             var hit = Physics2D.Raycast(new Vector2(position.x, position.y - 0.6f), Vector2.down, 1f);
+            if (hit.collider == null) return false;
             return hit.distance == 0;
         }
     }
