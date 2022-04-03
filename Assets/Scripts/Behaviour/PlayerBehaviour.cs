@@ -56,14 +56,18 @@ namespace Behaviour
         //"oh no" code ):<
         public void MeleeAttack()
         {
-            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack")) return;
+            if (
+                _animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") ||
+                _animator.GetCurrentAnimatorStateInfo(0).IsName("AttackWalk") ||
+                _animator.GetCurrentAnimatorStateInfo(0).IsName("StartAttack")
+            ) return;
+            _animator.Play("StartAttack");
             var transform1 = transform;
             var directionLeft = transform1.localScale.x < 0;
             var hit = Physics2D.Raycast(
                 (Vector2) transform1.position + (directionLeft ? Vector2.left : Vector2.right) * 0.6f,
                 directionLeft ? Vector2.left : Vector2.right);
             var mob = hit.rigidbody.GetComponent<Mob>();
-            _animator.Play("Attack");
             if (!(hit.distance < 0.01f) || mob == null) return;
             mob.ApplyDamage(meleeDamage);
         }
