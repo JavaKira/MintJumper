@@ -20,7 +20,7 @@ public class MobHealthBar : MonoBehaviour
         foreach (var obj in _gameObjects)
         {
             iterations++;
-            obj.UpdateState(mob.MaxHealth / _gameObjects.Count() * iterations <= health);
+            obj.UpdateState(mob.MaxHealth / _gameObjects.Count() * iterations <= health || iterations == 1);
         }
     }
 }
