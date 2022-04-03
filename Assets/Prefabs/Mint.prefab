@@ -186,16 +186,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 5
-  jumpMultiplier: 15
+  jumpMultiplier: 13
   meleeDamage: 5
   jumpCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.0011940002
-      value: 0.9507141
-      inSlope: 0.16953124
-      outSlope: 0.16953124
+      time: -0.0012054443
+      value: 0.9494934
+      inSlope: 0.17341726
+      outSlope: 0.17341726
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
@@ -203,17 +203,35 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.20824382
       value: 0.9858155
-      inSlope: 0.102922015
-      outSlope: 0.102922015
+      inSlope: 0.17712064
+      outSlope: 0.17712064
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.60193586
-      value: 1.0001116
-      inSlope: -0.0026120115
-      outSlope: -0.0026120115
+      time: 0.3991254
+      value: 1.0203315
+      inSlope: 0.18863532
+      outSlope: 0.18863532
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.60034895
+      value: 1.0598612
+      inSlope: -0.0018949658
+      outSlope: -0.0018949658
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.80043876
+      value: 1.0197959
+      inSlope: -0.204302
+      outSlope: -0.204302
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -221,8 +239,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.967851
       value: 0.98491263
-      inSlope: -0.09802228
-      outSlope: -0.09802228
+      inSlope: -0.18143761
+      outSlope: -0.18143761
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -299,6 +317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
+  destroyEffect: {fileID: 0}
+  enemy: 0
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
