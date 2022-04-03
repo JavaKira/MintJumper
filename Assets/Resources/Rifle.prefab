@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackAnimation: {fileID: 4134942593466435393}
   bulletType: {fileID: 6524856380349828697, guid: fcaa5f1d938df3046a1e5017fbd14961, type: 3}
-  bulletSpeedMultiplier: 250
+  bulletSpeedMultiplier: 500
   bulletSpawnOffset: {x: 0.6, y: 0}
 --- !u!111 &4134942593466435393
 Animation:
