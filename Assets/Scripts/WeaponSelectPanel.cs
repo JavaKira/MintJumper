@@ -19,7 +19,7 @@ public class WeaponSelectPanel : MonoBehaviour
     {
         _currentWeapon = weapon;
         description.text = weapon.name;
-        icon.sprite = defaultWeapon.GetComponent<SpriteRenderer>().sprite;
+        icon.sprite = weapon.GetComponent<SpriteRenderer>().sprite;
     }
 
     public void ApplyChose()
