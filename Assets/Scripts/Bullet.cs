@@ -19,6 +19,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.GetComponent<Bullet>() != null) return;
         var mob = other.gameObject.GetComponent<Mob>();
         if (_owner.Enemy)
         {
