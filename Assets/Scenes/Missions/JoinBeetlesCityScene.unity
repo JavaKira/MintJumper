@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0.35
-  camera: {fileID: 0}
+  camera: {fileID: 398843256}
 --- !u!212 &16181925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11816,7 +11816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0.4
-  camera: {fileID: 0}
+  camera: {fileID: 398843256}
 --- !u!212 &172830740
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12963,7 +12963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0.15
-  camera: {fileID: 0}
+  camera: {fileID: 398843256}
 --- !u!212 &853714539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13060,7 +13060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0.3
-  camera: {fileID: 0}
+  camera: {fileID: 398843256}
 --- !u!212 &948517578
 SpriteRenderer:
   m_ObjectHideFlags: 0
