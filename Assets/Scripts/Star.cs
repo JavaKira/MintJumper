@@ -17,5 +17,10 @@ public class Star : MonoBehaviour
     {
         gameObject.SetActive(true);
         _image.sprite = active ? activeSprite : deactiveSprite;
-    }    
+    }
+
+    public bool GetState()
+    {
+        return _image.sprite == activeSprite;
+    }
 }

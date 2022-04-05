@@ -45,7 +45,6 @@ public class Mission : MonoBehaviour
     public void End()
     {
         _stars += 1;
-        Game.Instance.Pause();
         MissionStartPanel.LastPointData.Completed = true;
         MissionStartPanel.LastPointData.Stars = Math.Max(MissionStartPanel.LastPointData.Stars, _stars);
         Campaign.GetData().PutData(MissionStartPanel.LastPointData);
