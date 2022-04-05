@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Behaviour
 {
@@ -17,6 +18,8 @@ namespace Behaviour
         public bool isOnLadder { get; set; }
 
         private bool Grounded => IsGrounded();
+
+        public UnityEvent OnDown = new UnityEvent();
 
         private void Awake()
         {

@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 6283130481715603440
     second: BeetleStatue
+  - first:
+      213: -3681625558607845309
+    second: Platform
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -386,6 +389,27 @@ TextureImporter:
       bones: []
       spriteID: 0f7661832e9223750800000000000000
       internalID: 6283130481715603440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3482e2f7f0d38ecc0800000000000000
+      internalID: -3681625558607845309
       vertices: []
       indices: 
       edges: []
