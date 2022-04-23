@@ -12,6 +12,7 @@
     "com.unity.ide.vscode": "1.2.3",
     "com.unity.localization": "1.2.1",
     "com.unity.mobile.android-logcat": "1.2.3",
+    "com.unity.render-pipelines.universal": "10.3.2",
     "com.unity.test-framework": "1.1.22",
     "com.unity.textmeshpro": "3.0.1",
     "com.unity.timeline": "1.4.6",

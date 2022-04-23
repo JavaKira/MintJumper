@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8f14ce9fef1d6184aba888e8aa4addc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   destroyEffect: {fileID: 8846062906815060815, guid: 705bcd109739c4c49a8d15f7e221f0ae, type: 3}
+  enemy: 0
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
