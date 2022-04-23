@@ -23,6 +23,24 @@ TextureImporter:
   - first:
       213: -6318320045553118032
     second: Glass
+  - first:
+      213: 1286495130325160530
+    second: TileAtlas_5
+  - first:
+      213: -1125511250544750908
+    second: TileAtlas_6
+  - first:
+      213: 4756503886906017610
+    second: TileAtlas_7
+  - first:
+      213: -1257656823827263370
+    second: TileAtlas_8
+  - first:
+      213: 4139689406626705942
+    second: TileAtlas_9
+  - first:
+      213: 7551787711741966618
+    second: TileAtlas_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,8 +145,8 @@ TextureImporter:
       name: TileAtlas_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -149,7 +167,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -170,7 +188,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -191,7 +209,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -212,7 +230,112 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4939bf461d058a0800000000000000
+      internalID: -6318320045553118032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2521d40418c8ad110800000000000000
+      internalID: 1286495130325160530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce03981b716160f0800000000000000
+      internalID: -1125511250544750908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474cc7851f720240800000000000000
+      internalID: 4756503886906017610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6701e6638c7eb8ee0800000000000000
+      internalID: -1257656823827263370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -222,8 +345,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b4939bf461d058a0800000000000000
-      internalID: -6318320045553118032
+      spriteID: 612be621591237930800000000000000
+      internalID: 4139689406626705942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193a89a9e65dc860800000000000000
+      internalID: 7551787711741966618
       vertices: []
       indices: 
       edges: []
