@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bae607ec2804dce86f74c77e3de10f8, type: 3}
   m_Name: KillAllEnemy
   m_EditorClassIdentifier: 
-  title: Kill all enemy
+  titleReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:391946946f3ed8047a4f30ce2d2e333d
+    m_TableEntryReference:
+      m_KeyId: 9345035562782720
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1

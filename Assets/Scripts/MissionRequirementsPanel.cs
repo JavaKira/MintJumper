@@ -1,5 +1,5 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Localization.Components;
 
 public class MissionRequirementsPanel : MonoBehaviour
 {
@@ -9,14 +9,14 @@ public class MissionRequirementsPanel : MonoBehaviour
 
     private void Start()
     {
-        missionMainRequirementsPanel.GetComponentInChildren<TMP_Text>().text =
-            Mission.Preset.MissionEndMainRequirement.GetTitle();
+        missionMainRequirementsPanel.GetComponentInChildren<LocalizeStringEvent>().StringReference =
+            Mission.Preset.MissionEndMainRequirement.GetStringReference();
         
-        missionRequirements2Panel.GetComponentInChildren<TMP_Text>().text =
-            Mission.Preset.MissionRequirement2.GetTitle();
-        
-        missionRequirements3Panel.GetComponentInChildren<TMP_Text>().text =
-            Mission.Preset.MissionRequirement3.GetTitle();
+        missionRequirements2Panel.GetComponentInChildren<LocalizeStringEvent>().StringReference =
+            Mission.Preset.MissionRequirement2.GetStringReference();
+
+        missionRequirements3Panel.GetComponentInChildren<LocalizeStringEvent>().StringReference =
+            Mission.Preset.MissionRequirement3.GetStringReference();
     }
 
     private void OnEnable()

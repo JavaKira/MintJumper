@@ -1,4 +1,5 @@
 ﻿using UnityEngine.Events;
+using UnityEngine.Localization;
 
 namespace MissionRequirement
 {
@@ -8,7 +9,7 @@ namespace MissionRequirement
         
         void RemoveDoneCheck();
 
-        string GetTitle();
+        LocalizedString GetStringReference();
 
         UnityEvent GetDoneEvent();
     }

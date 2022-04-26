@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92489d21ca254d39a429e18eff1f0c52, type: 3}
   m_Name: DestroyCratesMissionRequirement
   m_EditorClassIdentifier: 
-  title: destroy all crates
+  titleReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:391946946f3ed8047a4f30ce2d2e333d
+    m_TableEntryReference:
+      m_KeyId: 9344824627040256
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   mobType: {fileID: 4850503151013234787, guid: 26bcb08bf3ed2ac4a9b8c78e2d22ffab, type: 3}
+  references:
+    version: 1

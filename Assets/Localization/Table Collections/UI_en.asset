@@ -78,5 +78,17 @@ MonoBehaviour:
     m_Localized: Reset campaign
     m_Metadata:
       m_Items: []
+  - m_Id: 9344824627040256
+    m_Localized: Destroy crates
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345035562782720
+    m_Localized: Kill all enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345142316208128
+    m_Localized: Kill big beetle
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

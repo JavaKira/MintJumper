@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92489d21ca254d39a429e18eff1f0c52, type: 3}
   m_Name: KillBigBeetleMissionRequirement
   m_EditorClassIdentifier: 
-  title: Kill big beetle
+  titleReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:391946946f3ed8047a4f30ce2d2e333d
+    m_TableEntryReference:
+      m_KeyId: 9345142316208128
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   mobType: {fileID: 8981412368489931677, guid: 311db9fd9f1fcf243a63ff5a2939c7b0, type: 3}
+  references:
+    version: 1

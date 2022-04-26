@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Localization;
 
 namespace MissionRequirement
 {
     [CreateAssetMenu(menuName = "MissionRequirement/MobDeadMissionRequirement")]
     public class MobsDeadMissionRequirement : ScriptableObject, IMissionRequirement
     {
-        [SerializeField] private string title;
+        [SerializeField] private LocalizedString titleReference;
 
         [SerializeField] private Mob mobType;
 
@@ -28,9 +29,9 @@ namespace MissionRequirement
                 _doneEvent.Invoke();
         }
 
-        public string GetTitle()
+        public LocalizedString GetStringReference()
         {
-            return title;
+            return titleReference;
         }
 
         public UnityEvent GetDoneEvent()

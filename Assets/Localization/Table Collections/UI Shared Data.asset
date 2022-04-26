@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: ResetCampaign
     m_Metadata:
       m_Items: []
+  - m_Id: 9344824627040256
+    m_Key: DestroyCrateMissionRequirementTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345035562782720
+    m_Key: KillAllEnemyMissionRequirementTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9345142316208128
+    m_Key: KillBigBeetleMissionRequirementTitle
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
